@@ -56,10 +56,11 @@ class DAQ_2DViewer_pcoBeamProfiler(DAQ_2DViewer_pcoCam):
         dwa0D2 = DataFromPlugins(name='Width', data=[np.array([dx]), np.array([dy])],
                         dim='Data0D', labels = ['X width', 'Y width'])#, do_plot=True, do_save=False)
 
+        dwa0D3 = DataFromPlugins(name='Tilt', data=[np.array([phi])],
+                        dim='Data0D', labels = ['Tilt (°)'])#, do_plot=True, do_save=False)
 
 
-
-        data = DataToExport('BProfiler', data=[dwa, dwa0D2])
+        data = DataToExport('BProfiler', data=[dwa, dwa0D2, dwa0D3])
         self.dte_signal.emit(data)
 
 
