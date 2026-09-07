@@ -25,8 +25,8 @@ Use this template to create a repository on your account and start the developme
 Authors
 =======
 
-* First Author  (myemail@xxx.org)
-* Other author (myotheremail@xxx.org)
+* martin Luttmann  (martin.luttman@epfl.ch)
+
 
 .. if needed use this field
 
@@ -56,7 +56,7 @@ Below is the list of instruments included in this plugin
 Viewer2D
 ++++++++
 
-pco cameras
+pco cameras, tested with PCO edge 4.2
 
 
 
